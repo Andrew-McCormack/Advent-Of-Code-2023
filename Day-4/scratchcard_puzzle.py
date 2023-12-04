@@ -104,7 +104,7 @@ def main():
         print("Checking scratchcard number: {}...\n".format(scratch_card_index))
         
         scratch_card_win_index = scratch_card_index + 1
-        scratch_card_winning_points = (parse_and_calculate_scratch_card_points(scratch_card))
+        scratch_card_winning_points = parse_and_calculate_scratch_card_points(scratch_card)
         scratch_card_win_count = scratch_card_winning_points[0]
         total_scratchcard_score = total_scratchcard_score + scratch_card_winning_points[1]
         
